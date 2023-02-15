@@ -5,9 +5,9 @@ import time
 
 MY_LAT = 51.507351 # Your latitude
 MY_LONG = -0.127758 # Your longitude
-FROM_EMAIL = "graeme.m.balint@gmail.com"
-TO_EMAIL = "graeme.m.balint@gmail.com"
-PASSWORD = "Nora2605"
+FROM_EMAIL = ""
+TO_EMAIL = ""
+PASSWORD = ""
 
 def issOverhead():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
